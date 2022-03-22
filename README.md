@@ -17,3 +17,5 @@ The out put would be the proper QR method for each qury type.
 
 **Installation:**
 
+Put *2009 Million Query track topics (20001-60000)* and *query classes* files into *dataset* folder. By running *main.py* the first step of our method which is preprocess the input queries, will be applied.
+
