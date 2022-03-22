@@ -19,5 +19,6 @@ The out put would be the proper QR method for each qury type.
 
 **step 1:** Put *2009 Million Query track topics (20001-60000)* and *query classes* files into *dataset* folder. By running *main.py*, the first step of our method, which is to preprocess the input queries, will be applied. The result of this step is *topics.trecMQ* file, which is suitable input for the ReQue(we will explain in the next step).
 
-**step 2:** Install [ReQue](https://github.com/fani-lab/ReQue). Put *topics.trecMQ* and *prels relevance judgments* into *ds*-->*TrecMQ* folder. 
+**step 2:** Install [ReQue](https://github.com/fani-lab/ReQue). Put *topics.trecMQ* and *prels relevance judgments* into *ds*-->*TrecMQ* folder. The results of this step would be the evaluation of QR methods.
 
+**step 3:** We would rank the QR methods in each query type. Finally, we will find the QR methods for each query in a specific query type which improves the IR performance, and all other methods were not able to improve such queries.(This results will bbe published in Experiment phase)
